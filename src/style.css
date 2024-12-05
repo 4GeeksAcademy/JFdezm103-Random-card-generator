@@ -1,1 +1,75 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  justify-content: center;
+  font-family: "Arial, Helvetica, sans-serif";
+  height: 100vh; /* Ajuste para tomar toda la altura de la ventana */
+}
+.flex-container {
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid darkslategrey;
+  border-radius: 5%;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+}
+.top {
+  font-size: 60px;
+  margin-left: 5%;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 0%;
+  color: black;
+}
+.bottom {
+  margin-right: 5%;
+  font-size: 70px;
+  transform: rotate(180deg);
+}
+.heart {
+  top: 8px;
+  left: 20px;
+  color: red;
+}
+.diamont {
+  top: 8px;
+  left: 20px;
+  color: red;
+}
+.spade {
+  top: 8px;
+  left: 20px;
+  color: black;
+}
+.club {
+  top: 8px;
+  left: 20px;
+  color: black;
+}
+#resizing {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#generate {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
